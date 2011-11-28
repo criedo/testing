@@ -1,0 +1,1481 @@
+# Logfile created on Fri Aug 05 21:55:45 +0200 2011
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 21:56:20) [GET]
+  Session ID: 32f4374bcdc4b9da3180c93c096091b6
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/recipe/list" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 21:59:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/recipe/list" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:01:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/recipe/list" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:06:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;36;1mRecipe Load (0.000000)[0m   [0;1mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:06:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:06:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:06:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2011-08-05 22:06:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories [0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:06:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2011-08-05 22:07:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--1fcc8bed80c5349246099b22244d1f5831fe8285
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+Rendering template within layouts/application
+Rendering categories/new
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.10900 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:07:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2011-08-05 22:07:50) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"commit"=>"Create", "category"=>{"name"=>"first"}, "authenticity_token"=>"67b20e7fe0e147afdd79d055226b62a26d040310", "action"=>"create", "controller"=>"categories"}
+  [4;35;1mCategory Create (0.000000)[0m   [0mINSERT INTO categories ("name", "updated_at", "created_at") VALUES('first', '2011-08-05 22:07:50', '2011-08-05 22:07:50')[0m
+Redirected to http://localhost:3001/categories/1
+Completed in 0.11000 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2011-08-05 22:07:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIidDYXRlZ29yeSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0%0AZWQuBjoKQHVzZWR7BjsHVA%3D%3D--90852433b6e7dc96165dcaa9ff16064673b95898
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"categories"}
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Rendering template within layouts/application
+Rendering categories/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:07:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:08:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:08:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2011-08-05 22:08:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories [0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:08:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:08:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:08:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-08-05 22:08:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"new", "controller"=>"recipes"}
+Rendering template within layouts/application
+Rendering recipes/new
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories [0m
+Rendered recipes/_form (0.03100)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:08:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-08-05 22:08:42) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"67b20e7fe0e147afdd79d055226b62a26d040310", "action"=>"create", "controller"=>"recipes", "recipe"=>{"title"=>"", "category_id"=>"1", "description"=>"first description", "instructions"=>"do it first"}}
+  [4;35;1mRecipe Create (0.000000)[0m   [0mINSERT INTO recipes ("updated_at", "title", "category_id", "description", "instructions", "created_at") VALUES('2011-08-05 22:08:42', '', 1, 'first description', 'do it first', '2011-08-05 22:08:42')[0m
+Redirected to http://localhost:3001/recipes/1
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-08-05 22:08:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiVSZWNpcGUgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVk%0ALgY6CkB1c2VkewY7B1Q%3D--e5bd75c15f3bdbac72b4a1c28b0da9755cc60e1a
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"recipes"}
+  [4;36;1mRecipe Load (0.000000)[0m   [0;1mSELECT * FROM recipes WHERE (recipes."id" = 1) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:08:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:08:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;36;1mCategory Load (0.015000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.01500 (48%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:08:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:09:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/recipe/list" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-08-05 22:09:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes WHERE (recipes."id" = 0) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Recipe with ID=list):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1267:in `find_one'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1250:in `find_from_ids'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:504:in `find'
+    /app/controllers/recipes_controller.rb:22:in `show'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:09:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;36;1mRecipe Load (0.000000)[0m   [0;1mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Completed in 0.14100 (7 reqs/sec) | Rendering: 0.12500 (88%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:09:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:10:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;36;1mRecipe Load (0.000000)[0m   [0;1mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:10:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2011-08-05 22:11:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories [0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:11:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2011-08-05 22:11:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+Rendering template within layouts/application
+Rendering categories/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:11:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2011-08-05 22:11:16) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"commit"=>"Create", "category"=>{"name"=>"desert"}, "authenticity_token"=>"67b20e7fe0e147afdd79d055226b62a26d040310", "action"=>"create", "controller"=>"categories"}
+  [4;35;1mCategory Create (0.000000)[0m   [0mINSERT INTO categories ("name", "updated_at", "created_at") VALUES('desert', '2011-08-05 22:11:16', '2011-08-05 22:11:16')[0m
+Redirected to http://localhost:3001/categories/2
+Completed in 0.17200 (5 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2011-08-05 22:11:17) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIidDYXRlZ29yeSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0%0AZWQuBjoKQHVzZWR7BjsHVA%3D%3D--90852433b6e7dc96165dcaa9ff16064673b95898
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"categories"}
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 2) [0m
+Rendering template within layouts/application
+Rendering categories/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/categories/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:11:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:11:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:11:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-08-05 22:11:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"new", "controller"=>"recipes"}
+Rendering template within layouts/application
+Rendering recipes/new
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM categories [0m
+Rendered recipes/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:11:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-08-05 22:12:32) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"67b20e7fe0e147afdd79d055226b62a26d040310", "action"=>"create", "controller"=>"recipes", "recipe"=>{"title"=>"dolce", "category_id"=>"2", "description"=>"you must eat all first", "instructions"=>"clean the mouth after eating"}}
+  [4;36;1mRecipe Create (0.000000)[0m   [0;1mINSERT INTO recipes ("updated_at", "title", "category_id", "description", "instructions", "created_at") VALUES('2011-08-05 22:12:32', 'dolce', 2, 'you must eat all first', 'clean the mouth after eating', '2011-08-05 22:12:32')[0m
+Redirected to http://localhost:3001/recipes/2
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-08-05 22:12:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiVSZWNpcGUgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVk%0ALgY6CkB1c2VkewY7B1Q%3D--e5bd75c15f3bdbac72b4a1c28b0da9755cc60e1a
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes WHERE (recipes."id" = 2) [0m
+Rendering template within layouts/application
+Rendering recipes/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:12:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:12:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;36;1mRecipe Load (0.000000)[0m   [0;1mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+  [4;36;1mCategory Load (0.016000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 2) [0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.01600 (34%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:12:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:12:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "category_id"=>"1", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes WHERE (category_id = '1') [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes?category_id=1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:12:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:13:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "category_id"=>"1", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes WHERE (category_id = '1') [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes?category_id=1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:13:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-05 22:13:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes [0m
+Rendering template within layouts/application
+Rendering recipes/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories WHERE (categories."id" = 1) [0m
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM categories WHERE (categories."id" = 2) [0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:13:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19:in `load'
+    C:/PROGRA~1/INSTAN~1.0/ruby/bin/mongrel_rails:19
+
+Rendering C:/PROGRA~1/INSTAN~1.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2011-08-05 22:17:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM categories [0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:17:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:17:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/recipe/list" with {:method=>:get}):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-08-05 22:17:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzkyZWRkYzlmZTI1Y2NjODI1MTk1ZDZkOTNkODQ1%0AOGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a77c943573773829607328eaecbeb4a28341c352
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM recipes WHERE (recipes."id" = 0) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Recipe with ID=list):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1267:in `find_one'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1250:in `find_from_ids'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:504:in `find'
+    /app/controllers/recipes_controller.rb:22:in `show'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)

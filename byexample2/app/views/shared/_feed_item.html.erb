@@ -1,0 +1,8 @@
+<div class="micropost">
+  <div class="feed_img"><div class="feed_user"><%= link_to gravatar_for(feed_item.user, options = { :size => 30 }), @user %></div>
+    <% if current_user?(feed_item.user) %>
+      <div class="img_delete"><%= link_to img_delete, feed_item, :method => :delete, :confirm => "You sure?",:title => "Delete this micropost" %></div>
+    <% end %></div>
+  <div class="feed_content"><span class="feed_text"><%= wrap(line(feed_item)) %></div>
+  <div class="clear">&nbsp;</div>
+</div>

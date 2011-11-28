@@ -1,0 +1,17 @@
+<!-- app/views/shared/_micropost_form.html.erb crfr110911 -->
+<%= form_for @micropost do |f| %>
+  <%= render 'shared/error_messages', :object => f.object %>
+  <div class="field"><%= f.text_area :content, :onkeyup => "remain('micropost_content','remain',140)" %></div>
+  <div class="actions"><%= f.submit "Submit" %></div><div id="remain"></div>
+<% end %>
+<%= javascript_tag do -%>
+  function remain(field,field2show,maxlimit) {
+    var msg = new Array("Remain", "caracters", "Just one caracter!", "The End, my friend, the really end!");
+    var v_field = document.getElementById(field); var i_len = v_field.value.length; var v_pre = ""; var v_pos = ""; var v_len = ""; 
+    if (i_len > maxlimit) v_field.value = v_field.value.substring(0, maxlimit);
+    else { switch (maxlimit - i_len) { case 0: v_pre = msg[3]; break; case 1: v_pre = msg[2]; break;
+      default: v_pre = msg[0]; v_pos = msg[1]; v_len = maxlimit - i_len; }
+      document.getElementById(field2show).innerHTML = v_pre + " " + v_len + " " + v_pos; }
+  }
+  remain('micropost_content','remain',140);
+<% end -%>

@@ -1,0 +1,15 @@
+<!-- app/views/users/show_follow.html.erb crfr111109 -->
+<div summary="Information about following/followers">
+  <div class="main w_left">
+    <% unless @users.empty? %>
+      <div class="users"><%= render @users %></div>
+      <%= will_paginate @users %>
+    <% end %>
+  </div>
+  <div class="sidebar round w_right"><%= render 'shared/user_info' %>
+    <% unless @users.empty? %>
+      <% @users_box.each do |user| %><div class='follow_img'><%= link_to gravatar_for(user, :size => 30), user %></div><% end %>
+    <% end %>
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>

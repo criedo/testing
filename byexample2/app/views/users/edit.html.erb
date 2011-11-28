@@ -1,0 +1,7 @@
+<!-- app/views/users/index.html.erb crfr110911 -->
+<%= form_for(@user) do |f| %>
+  <%= render 'fields', :f => f %>
+  <div class="actions clear_left"><%= f.submit "Update" %></div>
+<% end %>
+<div class="clear_left"><%= gravatar_for @user %><a href="http://gravatar.com/emails" target="_blank">change</a></div>
+<div class="clear">&nbsp;</div>

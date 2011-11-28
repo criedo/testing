@@ -1,0 +1,19 @@
+<div class='post_content'><h1>Listing posts</h1>
+  <div class='post_pre title'>&nbsp;</div>
+  <div class='post_01 title'>Name</div>
+  <div class='post_02 title'>Title</div>
+  <div class='post_03 title'>Content</div>
+  <div class='post_show title'>&nbsp;</div>
+  <div class='post_edit title'>&nbsp;</div>
+  <div class='post_del title'>&nbsp;</div>
+  <% @posts.each do |post| %>
+    <div class='post_pre'>&nbsp;</div>
+    <div class='post_01'><%= post.name %></div>
+    <div class='post_02'><%= post.title %></div>
+    <div class='post_03'><%= post.content %></div>
+    <div class='post_show'><%= link_to 'Show', post %></div>
+    <div class='post_edit'><%= link_to 'Edit', edit_post_path(post) %></div>
+    <div class='post_del'><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></div>
+  <% end %>
+  <div class='post_new'><%= link_to 'New Post', new_post_path %></div>
+</div>

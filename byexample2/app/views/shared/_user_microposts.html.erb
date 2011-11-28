@@ -1,0 +1,6 @@
+<!-- app/views/shared/_user_microposts.html.erb crfr110925 -->
+<% if signed_in? %>
+  <div class="clear">&nbsp;</div><%= render 'shared/feed' %></div>
+<% else %>
+  <%= link_to "Sign up now!", signup_path, :class => "signup_button round" %>
+<% end %>

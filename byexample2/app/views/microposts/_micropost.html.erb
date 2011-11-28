@@ -1,0 +1,9 @@
+<!-- app/views/micropost/_micropost.html.erb crfr110911 -->
+<div class="micropost">
+  <div class="timestamp"><%= time_ago_in_words(micropost.created_at) %> ago: </div>
+  <% if current_user?(@user) %>
+    <div class="img_delete"><%= link_to img_delete, micropost, :method => :delete, :confirm => "You sure?",:title => "Delete this micropost" %></div>
+  <% end %>
+  <div class="content"><%= micropost.content %></div>
+  <div class="clear">&nbsp;</div>
+</div>

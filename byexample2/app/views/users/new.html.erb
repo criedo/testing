@@ -1,0 +1,6 @@
+<!-- app/views/users/new.html.erb crfr110911 -->
+<%= form_for(@user) do |f| %>
+  <%= render 'fields', :f => f %>
+  <div class="actions clear_left"><%= f.submit "Sign up" %></div>
+  <div class="clear">&nbsp;</div>
+<% end %>

@@ -1,0 +1,4 @@
+<!-- app/views/users/_unfollow.html.erb crfr111109 -->
+<%= form_for current_user.relationships.find_by_followed_id(@user), :html => { :method => :delete }, :remote => true do |f| %>
+  <div class="actions"><%= f.submit "Unfollow" %></div>
+<% end %>

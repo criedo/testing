@@ -1,0 +1,822 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:18:42) [GET]
+  Session ID: 9975028926a4c35ab4985b26a76e537e
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/recipes/list" with {:method=>:get}):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-05 22:32:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "//My_Test/index" with {:method=>:get}):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MyTestController#index (for 127.0.0.1 at 2011-08-05 22:33:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"my_test"}
+
+
+NoMethodError (undefined method `render_text' for #<MyTestController:0x2c233a8>):
+    /app/controllers/my_test_controller.rb:3:in `index'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MyTestController#index (for 127.0.0.1 at 2011-08-05 22:33:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"my_test"}
+
+
+ActionController::MissingTemplate (Missing template my_test/index.html.erb in view path C:/Programmi/InstantRails-2.0/rails_apps/cookbook2/app/views):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1269:in `assert_existence_of_template_file'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1098:in `render_for_file'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:836:in `render_with_no_layout'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1153:in `default_render'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1159:in `perform_action_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MyTestController#index (for 127.0.0.1 at 2011-08-05 22:34:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"my_test"}
+
+
+NoMethodError (undefined method `render_text' for #<MyTestController:0x33c3c48>):
+    /app/controllers/my_test_controller.rb:3:in `index'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MyTestController#index (for 127.0.0.1 at 2011-08-05 22:35:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"my_test"}
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/My_Test/index]
+
+
+Processing MyTestController#dilbert (for 127.0.0.1 at 2011-08-05 22:37:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"dilbert", "controller"=>"my_test"}
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/My_Test/dilbert]
+
+
+Processing MyTestController#dilbert (for 127.0.0.1 at 2011-08-05 22:56:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"dilbert", "controller"=>"my_test"}
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/My_Test/dilbert]
+
+
+Processing MyTestController#index (for 127.0.0.1 at 2011-08-05 22:56:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"my_test"}
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/My_Test/index]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2011-08-07 01:53:44) [GET]
+  Session ID: 027c9e3b7d668275e1144af0ebba9e13
+  Parameters: {"action"=>"new", "controller"=>"recipe"}
+
+
+NoMethodError (undefined method `scaffold' for RecipeController:Class):
+    /app/controllers/recipe_controller.rb:2
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_file'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:202:in `load_file'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:453:in `const_missing'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:465:in `const_missing'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/inflector.rb:257:in `constantize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1426:in `recognize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.110000)[0m   [0mCREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.031000)[0m   [0;1mINSERT INTO `schema_info` (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreateRecipes (1)
+  [4;35;1mSQL (0.219000)[0m   [0mCREATE TABLE `recipes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255) DEFAULT NULL, `instructions` text DEFAULT NULL, `created_at` datetime DEFAULT NULL, `updated_at` datetime DEFAULT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.031000)[0m   [0;1mUPDATE schema_info SET version = 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (0.015000)[0m   [0mdescribe `recipes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `recipes`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `recipes_old`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `recipes_old`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `recipes_old`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FULL TABLES WHERE Table_type = 'BASE TABLE'[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW CREATE TABLE `categories`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW CREATE TABLE `recipes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW CREATE TABLE `schema_info`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+
+
+Processing RecipeController#new (for 127.0.0.1 at 2011-08-07 02:24:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"new", "controller"=>"recipe"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to new):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipeController#index (for 127.0.0.1 at 2011-08-07 02:24:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"recipe"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.062000)[0m   [0mCREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mINSERT INTO `schema_info` (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.109000)[0m   [0mCREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mINSERT INTO `schema_info` (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreateRecipes (1)
+  [4;35;1mSQL (0.093000)[0m   [0mCREATE TABLE `recipes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime NOT NULL, `update_at` datetime NOT NULL, `active` int(1) DEFAULT 1 NOT NULL, `rank` int(4) DEFAULT 0 NOT NULL, `categories_id` int(10) DEFAULT 1 NOT NULL, `title` varchar(128) DEFAULT '' NOT NULL, `instructions` text DEFAULT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mUPDATE schema_info SET version = 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `recipes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `recipes`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `recipes_old`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `recipes_old`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `recipes_old`[0m
+
+
+Processing RecipeController#new (for 127.0.0.1 at 2011-08-07 02:31:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"new", "controller"=>"recipe"}
+
+
+ActionController::UnknownAction (No action responded to new):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-07 02:31:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.03100 (24%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-08-07 02:31:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--06d6cce01d8ee0ee18d43a2e21b9a59cf94ebe67
+  Parameters: {"action"=>"new", "controller"=>"recipes"}
+  [4;36;1mRecipe Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-08-07 02:47:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"action"=>"new", "controller"=>"recipes"}
+  [4;35;1mRecipe Columns (0.000000)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-07 09:55:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;36;1mSQL (0.078000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRecipe Load (0.125000)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+Completed in 0.23500 (4 reqs/sec) | Rendering: 0.09400 (39%) | DB: 0.20300 (86%) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-08-07 09:55:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"action"=>"new", "controller"=>"recipes"}
+  [4;36;1mRecipe Columns (0.141000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.03100 (15%) | DB: 0.14100 (69%) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-08-07 09:56:11) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2abec12fd9ec8102840db8236a734b0e4e0d7a21", "action"=>"create", "controller"=>"recipes", "recipe"=>{"categories_id"=>"1", "title"=>"First", "rank"=>"0", "instructions"=>"You must eat first", "active"=>"1"}}
+  [4;35;1mRecipe Columns (0.015000)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecipe Create (0.000000)[0m   [0mMysql::Error: Column 'update_at' cannot be null: INSERT INTO `recipes` (`categories_id`, `title`, `rank`, `instructions`, `update_at`, `active`, `created_at`) VALUES(1, 'First', 0, 'You must eat first', NULL, 1, '2011-08-07 09:56:11')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Column 'update_at' cannot be null: INSERT INTO `recipes` (`categories_id`, `title`, `rank`, `instructions`, `update_at`, `active`, `created_at`) VALUES(1, 'First', 0, 'You must eat first', NULL, 1, '2011-08-07 09:56:11')):
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:150:in `log'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/mysql_adapter.rb:281:in `execute'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:156:in `insert_sql'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/mysql_adapter.rb:291:in `insert_sql'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:44:in `insert_without_query_dirty'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:19:in `insert'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:2272:in `create_without_callbacks'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/callbacks.rb:226:in `create_without_timestamps'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/timestamp.rb:29:in `create'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:2238:in `create_or_update_without_callbacks'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/callbacks.rb:213:in `create_or_update'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1972:in `save_without_validation'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/validations.rb:934:in `save_without_transactions'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/transactions.rb:108:in `save'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:66:in `transaction'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/transactions.rb:80:in `transaction'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/transactions.rb:100:in `transaction'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/transactions.rb:108:in `save'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/transactions.rb:120:in `rollback_active_record_state!'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/transactions.rb:108:in `save'
+    /app/controllers/recipes_controller.rb:46:in `create'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:106:in `call'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:106:in `respond_to'
+    /app/controllers/recipes_controller.rb:45:in `create'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/Programmi/InstantRails-2.0/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/Programmi/InstantRails-2.0/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-08-07 09:58:25) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2abec12fd9ec8102840db8236a734b0e4e0d7a21", "action"=>"create", "controller"=>"recipes", "recipe"=>{"categories_id"=>"1", "title"=>"First", "rank"=>"0", "instructions"=>"You must eat first", "active"=>"1"}}
+  [4;35;1mRecipe Columns (0.000000)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecipe Create (0.031000)[0m   [0mINSERT INTO `recipes` (`categories_id`, `title`, `rank`, `instructions`, `update_at`, `active`, `created_at`) VALUES(1, 'First', 0, 'You must eat first', NULL, 1, '2011-08-07 09:58:25')[0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/recipes/1
+Completed in 0.23400 (4 reqs/sec) | DB: 0.10900 (46%) | 302 Found [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-08-07 09:58:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiVSZWNpcGUgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVk%0ALgY6CkB1c2VkewY7B1Q%3D--b87ed81426190fc525ca9eb5a384b4d7374e4110
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"recipes"}
+  [4;35;1mRecipe Columns (0.000000)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+  [4;36;1mRecipe Load (0.000000)[0m   [0;1mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 1) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/1]
+
+
+Processing RecipesController#index (for 127.0.0.1 at 2011-08-07 09:59:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"action"=>"index", "controller"=>"recipes"}
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM `recipes` [0m
+Rendering template within layouts/recipes
+Rendering recipes/index
+  [4;36;1mRecipe Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes]
+
+
+Processing RecipesController#new (for 127.0.0.1 at 2011-08-07 09:59:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"action"=>"new", "controller"=>"recipes"}
+  [4;35;1mRecipe Columns (0.000000)[0m   [0mSHOW FIELDS FROM `recipes`[0m
+Rendering template within layouts/recipes
+Rendering recipes/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/recipes/new]
+
+
+Processing RecipesController#create (for 127.0.0.1 at 2011-08-07 10:00:05) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--1a86737db1d14f81380b92b2076e6001bc11e0f3
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"2abec12fd9ec8102840db8236a734b0e4e0d7a21", "action"=>"create", "controller"=>"recipes", "recipe"=>{"categories_id"=>"1", "title"=>"Honey moon", "rank"=>"0", "instructions"=>"It's very sweet", "active"=>"1"}}
+  [4;36;1mRecipe Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mRecipe Create (0.000000)[0m   [0;1mINSERT INTO `recipes` (`categories_id`, `title`, `rank`, `instructions`, `update_at`, `active`, `created_at`) VALUES(1, 'Honey moon', 0, 'It\'s very sweet', NULL, 1, '2011-08-07 10:00:05')[0m
+  [4;35;1mSQL (0.078000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/recipes/2
+Completed in 0.09400 (10 reqs/sec) | DB: 0.07800 (82%) | 302 Found [http://localhost/recipes]
+
+
+Processing RecipesController#show (for 127.0.0.1 at 2011-08-07 10:00:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDQ5YTAxYTBiNjhiMjk4ODVhZGRjNWY5ZDQ1MTZl%0AZGEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiVSZWNpcGUgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVk%0ALgY6CkB1c2VkewY7B1Q%3D--b87ed81426190fc525ca9eb5a384b4d7374e4110
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"recipes"}
+  [4;36;1mRecipe Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `recipes`[0m
+  [4;35;1mRecipe Load (0.000000)[0m   [0mSELECT * FROM `recipes` WHERE (`recipes`.`id` = 2) [0m
+Rendering template within layouts/recipes
+Rendering recipes/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://localhost/recipes/2]

@@ -1,0 +1,127 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1040{\fonttbl{\f0\fswiss\fcharset0 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\fi-426\li426\f0\fs20 bookmark_manager [http://ruby.html.it/guide/leggi/151/guida-ruby-on-rails-2/]\par
+cmd [prompt dei comandi]\par
+\b\i nel prompt\b0\i0 : use_ruby => sposta alla nella cartella degli applicativi [c:\\Programmi\\InstantRails-2.0\\rails_apps]\par
+rails project => crea la struttura [nella cartella "project"]\par
+cd project\par
+ruby script/server => attiva server [Mongrel] [per uscire: ctrl+C]\par
+\b\i nel browser\b0\i0 : localhost:3000 => Welcome page\par
+\b\i nel prompt\b0\i0 : ruby script/console [case sensitive] => attiva console [per uscire: ctrl+D]\par
+Rails::Info => elenco dell'ambiente\par
+ruby script/generate scaffold bookmark url:string title:string description:text => crea tabella (bookmark) coi campi nome:tipo (url:string ... description:text)\par
+rake db:migrate => prepara i db\par
+\b\i nel browser\b0\i0 : localhost:3000/bookmarks/new => apre tabella (bookmark) per inserimento (new)\par
+inserire 1  record [bottone Create] => localhost:3000/bookmarks/\b 1\b0  => pagina di successo (record \b 1\b0 ) (vedi v1_bookmarks_new.pdf => v1_bookmarks_1.pdf => v1_bookmarks_1_edit.pdf)\par
+http://localhost:3000/bookmarks.xml => mostra la pagina nel formato XML (Web Service REST) (vedi v1_bookmarks_1_xml.pdf)\par
+\b\i nel notepad\b0\i0 : \i edit \i0 bookmark.rb (..rails_apps\\bookmark_manager\\app\\models)\par
+\tab validazione: <tipo di validazione><attributi a cui applicare la validazione> :message => <messaggio di errore>\par
+\b\i nel browser\b0\i0 : localhost:3000/bookmarks/new => la validazione avviene a livello di modello e non sulla pagina del form (vedi v1_bookmarks_create.pdf)\par
+\b\i nel prompt\b0\i0 : ruby script/console\par
+bookmark = Bookmark.new => #<Bookmark id: nil, url: nil, title: nil, description: nil, created_at: nil, updated_at: nil>\par
+bookmark.url = "http://ruby.html.it" => "http://ruby.html.it"\par
+bookmark.title = "Tutto sul mondo Ruby" => "Tutto sul mondo Ruby"\par
+bookmark.save => false\par
+bookmark.errors => #<ActiveRecord::Errors:0x249f0b4 @errors=\{"url"=>["Due bookmark devono avere URL differenti"]\}, @base=#<Bookmark id: nil, url: "http://ruby.html.it", title: "Tutto sul mondo Ruby", description: nil, created_at: nil, updated_at: nil>>\par
+@errors indica il campo che ha generato l'errore e il relativo messaggio\par
+[ctrl+D] => esce della console\par
+rake routes => elenco delle richieste attualmente riconosciute\par
+\tab 1)un'abbreviazione della regola; 2)metodo HTTP; 3)path; 4)controller + action\par
+es.:\par
+\tab formatted_new_bookmark GET    /bookmarks/new.:format           \{:action=>"new", :controller=>"bookmarks"\}\par
+\tab                 edit_bookmark GET    /bookmarks/:id/edit              \{:action=>"edit", :controller=>"bookmarks"\}\par
+\b\i nel notepad\b0\i0 : \i edit \i0 routes.rb (..rails_apps\\bookmark_manager\\config)\par
+[scaffold => inserisce automaticamente \i map.resources :bookmarks\i0 ]\par
+\i edit \i0 bookmarks_controller.rb (..rails_apps\\bookmark_manager\\app\\controllers)\par
+[format => generare viste differenti a partire da uno stesso controller]\par
+\tab app/views/<nome_controller>/<nome_vista>.<formato>.<sistema_template>\par
+MVC: il codice che ha estratto i dati dal database si trova nel controller e non nella vista]\par
+(vedi v1_bookmarks.pdf)\par
+inserire \ul\i , :order => "title"\ulnone\i0  dopo il primo \ul\i Bookmark.find(:all\ulnone\i0  (vedi v2_bookmarks.pdf)\par
+\i edit \i0 index.html.erb (..rails_apps\\bookmark_manager\\app\\views\\bookmarks) (vedi v3_bookmarks.pdf)\par
+\b\i nel prompt\b0\i0 : [plugin tagable]\par
+ruby script/plugin install http://svn.viney.net.nz/things/rails/plugins/acts_as_taggable_on_steroids\par
+ruby script/generate acts_as_taggable_migration\par
+rake db:migrate => prepara le tabelle del plugin nel db\par
+\b\i nel notepad\b0\i0 : \i edit \i0 bookmarks.rb (..rails_apps\\bookmark_manager\\app\\models)\par
+aggiunge la riga \ul\i acts_as_taggable\ulnone\i0  dopo della riga \ul\i class Bookmark < ActiveRecord::Base\par
+\ulnone\b nel prompt\b0\i0 : ruby script/console\par
+[ATTENTI: ho dovuto scaricare \i jviney-acts_as_taggable_on_steroids-ec56014.zip\i0  e inserire manualmente nella cartella ..rails_apps\\bookmark_manager\\vendor\\plugins\\acts_as_taggable_on_steroids]\par
+b = Bookmark.find(:first) => #<Bookmark id: 1, url: "http://ruby.html.it", title: "Ruby su HTML.it", description: "Home page della sezione Ruby. Guide, articoli di ap...", created_at: "2008-06-02 00:20:12", updated_at: "2008-06-02 00:20:12">\par
+b.tag_list => []\par
+b.tag_list = "ruby, rails" => "ruby, rails"\par
+b.save => true\par
+[\i b = Bookmark.find(2)\i0  + \i b.tag_list = "rails, project, prova"\i0  + \i b.save\i0 ]\par
+Bookmark.find_tagged_with("Rails")=> [#<Bookmark id: 1, url: "http://ruby.html.it", title: "Ruby su HTML.it", description: "Home page della sezione Ruby. Guide, articoli di ap...", created_at: "2008-06-02 00:20:12", updated_at: "2008-06-02 00:20:12">, #<Bookmark id: 1, (...)]\par
+\b\i nel notepad\b0\i0 : \i edit \i0 index.html.erb (..rails_apps\\bookmark_manager\\app\\views\\bookmarks)\par
+inserire la riga \b\i Tag: <%= bookmark.tag_list %><br />\b0\i0  dopo della riga \ul\i <%= bookmark.description %><br />\ulnone\i0  (vedi v4_bookmarks.pdf)\par
+[ATTENTI: dopo delle modifiche fatte col rake conviene chiudere e aprire il server (vedi v4_bookmarks_error.pdf)]\par
+\i edit \i0 new.html.erb (..rails_apps\\bookmark_manager\\app\\views\\bookmarks)\par
+inserire la riga \ul\i <p>Tag: <%= f.text_field :tag_list %></p>\ulnone\i0  dopo \ul\i <%= f.text_area :description %></p>\ulnone\i0  (vedi v4_bookmarks_new.pdf)\ul\i\par
+\ulnone edit\i0  edit.html.erb (..rails_apps\\bookmark_manager\\app\\views\\bookmarks)\par
+la stessa modifica (vedi v4_bookmarks_1_edit.pdf)\par
+\b\i nel prompt\b0\i0 : ruby script/generate controller tags\par
+\b\i nel notepad\b0\i0 : \i edit \i0 tags_controller.rb (..rails_apps\\bookmark_manager\\app\\controllers)\par
+crea nuova action (def show)\par
+\i crea file\i0  show.html.erb (..rails_apps\\bookmark_manager\\app\\views\\tags)\par
+copia tutto del file app/views/bookmarks/index.html.erb e sostituisce \ul\i <h1>\ulnone\par
+edit\i0  database.yml (..rails_apps\\bookmark_manager\\config)\par
+=> configurazione differente per ambienti (development, production, test)\par
+\i ActiveRecord\i0 : convenzioni sui nomi\par
+=> per ogni modello (prima lettera maiuscola) => tabella con nome del modello al plurale e in caratteri minuscoli\par
+=> modelli con nome composto di pi\'f9 parole (la prima lettera di ogni parola maiuscola) => la tabella ha sempre il nome in minuscolo e separata da underscore (_)\par
+=> per ogni colonna della tabella => attributo con lo stesso nome\par
+=> ogni tabella ha una colonna id (intero positivo) che identifica univocamente il record\par
+db/migrate => mantenere i file di migrazione sempre ordinati e quindi di ricostruire la "storia" dello schema del database\par
+\i Tipi dei dati\i0\par
+\pard\fi-426\li426\tx1420 :string\tab stringa di testo, corrisponde al varchar in SQL\par
+:text\tab\tab stringa di testo di lunghezza indefinita\par
+:integer\tab intero positivo\par
+:decimal\tab numero decimale\par
+:datetime\tab data e ora\par
+:date\tab data\par
+:time\tab ora\par
+:boolean\tab booleano\par
+\i Opzioni\i0\par
+:null\tab\tab indica se una colonna accetta valori nulli (true (default)|false)\par
+:default\tab indica il valore di default attribuito ai campi della colonna\par
+:length\tab la lunghezza massima\par
+\pard\fi-426\li426\b\i nel db\b0\i0 : schema_migrations => elenca tutte le migrazioni (SELECT * FROM schema_migrations;)\par
+\b\i nel prompt\b0\i0 : rake db:version => Current version: 2\par
+rake db:migrate VERSION=X => per tornare alla versione X\par
+rake db:migrate => Se non viene indicata alcuna versione, il db verr\'e0 aggiornato all'ultima versione\par
+\b\i nel notepad\b0\i0 : \i edit \i0 001_create_bookmarks.rb (..rails_apps\\bookmark_manager\\db\\migrate)\par
+[SEMPRE presenti due metodi: self.up e self.down - e devono annularsi]\par
+\pard\fi-426\li426\tx1420 inserisce \ul\i add_column :bookmarks, :rate, :integer, :null => false, :default => 3\ulnone\i0  dopo \ul\i self.up\ulnone\i0\par
+inserisce \ul\i remove_column :bookmarks, :rate\ulnone\i0  dopo self.down\par
+\pard\fi-426\li426\b\i nel prompt\b0\i0 : ruby script/generate migration add_rate_to_bookmarks => crea file con le due classi self vuoti (secondo la sequenza delle migrazioni)\par
+\pard\fi-426\li426\tx1420 rake db:migrate\par
+\b\i nel console\b0\i0 : Bookmark.find(:all, :order => "rate DESC, title", :limit => 2) [:limit solo insieme a :all]\par
+Bookmark.destroy_all("rate < 3") => cancella tuute le righe dove rate < 3\par
+Bookmark.destroy([1, 2, 5]) => cancella le righe con l'id nella matrice\par
+\pard\fi-426\li426\b\i nel prompt\b0\i0 : ruby script/generate scaffold category title:string description:text\par
+ruby script/generate migration add_category_id_to_bookmarks\par
+\pard\fi-426\li426\tx1420 rake db:migrate\par
+ruby script/generate model Categorization\par
+ruby script/generate model Page\par
+\pard\fi-426\li426 ruby script/generate migration add_page_id_to_bookmarks\par
+\b\i nel notepad\b0\i0 : \i edit \i0 category.rb (..rails_apps\\bookmark_manager\\app\\models)\par
+copia tutto dal file bookmark.rb a aggiusta solo il title\par
+\i edit \i0 006_create_categorizations.rb\i  \i0 (..rails_apps\\bookmark_manager\\db\\migrate)\par
+inserisce \ul\i t.integer :bookmark_id\ulnone\i0  + \ul\i t.integer :category_id\ulnone\i0  + \ul\i t.text :comment\ulnone\i0  dopo \ul\i create_table\ulnone\i0\par
+\i edit \i0 007_create_pages.rb\i  \i0 (..rails_apps\\bookmark_manager\\db\\migrate)\par
+inserisce \ul\i t.text :content\ulnone\i0  dopo \ul\i create_table\ulnone\i0\par
+\i edit \i0 008_add_page_id_to_bookmarks.rb\i  \i0 (..rails_apps\\bookmark_manager\\db\\migrate)\par
+inserisce \ul\i add_column :bookmarks, :page_id, :integer\ulnone\i0  dopo \ul\i self.up\ulnone\i0\par
+inserisce \ul\i remove_column :bookmarks, :page_id\ulnone\i0  dopo \ul\i self.down\ulnone\i0\par
+\i edit \i0 bookmark.rb\i  \i0 (..rails_apps\\bookmark_manager\\app\\models)\par
+inserisce \ul\i has_one :page\ulnone\i0  + \ul\i has_many :categories, :through => :categorizations\ulnone\i0  + \ul\i has_many :categorizations\ulnone\i0  dopo \ul\i acts_as_taggable\ulnone\i0\par
+\i edit \i0 category.rb\i  \i0 (..rails_apps\\bookmark_manager\\app\\models)\par
+inserisce \ul\i has_many :categories, :through => :categorizations\ulnone\i0  + \ul\i has_many :categorizations\ulnone\i0  dopo \ul\i ActiveRecord::Base\ulnone\i0\par
+\i edit \i0 categorization.rb\i  \i0 (..rails_apps\\bookmark_manager\\app\\models)\par
+inserisce \ul\i belongs_to :bookmark\ulnone\i0  + \ul\i belongs_to :category\ulnone\i0  dopo \ul\i ActiveRecord::Base\ulnone\i0\par
+\i edit \i0 page.rb\i  \i0 (..rails_apps\\bookmark_manager\\app\\models)\par
+inserisce \ul\i belongs_to :bookmark\ulnone\i0  dopo \ul\i ActiveRecord::Base\ulnone\i0\par
+\b\i nel prompt\b0\i0 : rake db:migrate\par
+\pard\fi-426\li426\tx1420\par
+}
+ 

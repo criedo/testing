@@ -1,0 +1,9 @@
+<!-- app/views/shared/_user_info.html.erb crfr110911 -->
+<% @user ||= current_user %>
+<% if @user_img %>
+  <div class="user_info_img"><%= gravatar_for @user, :size => 100 %></div>
+<% end %>
+<strong>Name</strong>  <%= @user.name %><br />
+<strong>URL</strong>  <%= link_to user_path(@user), @user %><br />
+<strong><%= pluralize(@user.microposts.count, "micropost") %></strong>
+<%= render 'shared/stats' %>

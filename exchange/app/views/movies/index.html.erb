@@ -1,0 +1,18 @@
+<div id="movie-list">
+	<h1>Elenco dei film</h1>
+	<table cellpadding="5" cellspacing="0" width="100%">
+<% for movie in @movies %>
+		<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+		  <td> <img class="list-one-sheet" src="..\public\images\<%= movie.url %>"/></td>
+		  <td width="60%"><span class="list-title"><%= h(movie.title) %></span><br /><%= h(truncate(movie.description, 80)) %></td>
+		  <td class="list-actions">
+			<%= link_to 'Show', movie %>
+			<%= link_to 'Edit', edit_movie_path(movie) %>
+			<%= link_to 'Destroy', movie, :confirm => 'Are you sure?', :method => :delete %>
+		  </td>
+		</tr>
+<% end %>
+	</table>
+</div>
+<br />
+<%= link_to 'New movie', new_movie_path %>

@@ -1,0 +1,9 @@
+<%= error_messages_for :bookmark %>
+<% form_for(@bookmark) do |f| %>
+  <p><b>Url</b><br /><%= f.text_field :url %></p>
+  <p><b>Title</b><br /><%= f.text_field :title %></p>
+  <p><b>Description</b><br /><%= f.text_area :description %></p>
+  <p>Tag: <%= f.text_field :tag_list %></p>
+  <p>Rate: <%= f.select :rate, [5,4,3,2,1] %></p>
+  <p><%= f.submit label_text %></p>
+<% end %>

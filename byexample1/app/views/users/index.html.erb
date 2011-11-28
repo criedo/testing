@@ -1,0 +1,17 @@
+<div class='content'><h1>Listing users</h1>
+  <div class='pref title'>&nbsp;</div>
+  <div class='user_name title'>Name</div>
+  <div class='user_email title'>Email</div>
+  <div class='show title'>&nbsp;</div>
+  <div class='edit title'>&nbsp;</div>
+  <div class='del title'>&nbsp;</div>
+  <% @users.each do |user| %>
+    <div class='pref'>&nbsp;</div>
+    <div class='user_name'><%= user.name %></div>
+    <div class='user_email'><%= user.email %></div>
+    <div class='show'><%= link_to 'Show', user %></div>
+    <div class='edit'><%= link_to 'Edit', edit_user_path(user) %></div>
+    <div class='del'><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></div>
+    <% end %>
+    <div class='new'><%= link_to 'New User', new_user_path %></div>
+</div>

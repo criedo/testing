@@ -1,0 +1,9 @@
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/recipes
+      create  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      create  app/views/recipes/index.html.erb
+wrong number of arguments (1 for 2)

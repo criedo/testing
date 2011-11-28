@@ -1,0 +1,12 @@
+<!-- app/views/pages/home.html.erb crfr110911 -->
+<% @user ||= current_user %>
+<% if signed_in? %>
+  <div class="front" summary="For signed-in users">
+    <div class="sidebar w_left round"><%= render 'shared/micropost_form' %>
+      <div class="clear">&nbsp;</div><%= render 'shared/feed' %></div>
+    <div class="sidebar round w_right"><%= render 'shared/user_info' %></div>
+    <div class="clear">&nbsp;</div>
+  </div>
+<% else %>
+  <%= link_to "Sign up now!", signup_path, :class => "signup_button round" %>
+<% end %>

@@ -1,0 +1,28 @@
+<p>
+  <b>Active:</b>
+  <%=h @recipe.active %>
+</p>
+
+<p>
+  <b>Rank:</b>
+  <%=h @recipe.rank %>
+</p>
+
+<p>
+  <b>Categories:</b>
+  <%=h @recipe.categories_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @recipe.title %>
+</p>
+
+<p>
+  <b>Instructions:</b>
+  <%=h @recipe.instructions %>
+</p>
+
+
+<%= link_to 'Edit', edit_recipe_path(@recipe) %> |
+<%= link_to 'Back', recipes_path %>

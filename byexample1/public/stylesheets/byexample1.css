@@ -1,0 +1,11 @@
+.clear{ clear: both; }
+.content{ width: 90%; }
+.del,.show{ float: left; width: 7%; }
+.edit{ float: left; width: 5%; }
+.label{ float: left; width: 90px; height: 22px; font-weight: bold; background-color: #64B7D6; }
+.new{ clear: both; float: left; padding: 10px 0 0 1%; }
+.pref{ clear: both; float: left; width: 1%; }
+.title{ font-weight: bold; background-color: #64B7D6; }
+/***** user *****/
+.user_email{ float: left; width: 30%; }
+.user_name{ float: left; width: 30%; }

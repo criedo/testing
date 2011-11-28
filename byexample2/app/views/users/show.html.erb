@@ -1,0 +1,13 @@
+<!-- app/views/users/show.html.erb crfr110911 -->
+<div class="profile" summary="Profile information">
+  <div class="main w_left">
+    <h1><%= gravatar_for @user %><%= @user.name %></h1>
+    <%= render 'follow_form' if signed_in? %>
+    <% unless @user.microposts.empty? %><div class="clear">&nbsp;</div>
+      <div class="microposts" summary="User microposts"><%= render @microposts %></div>
+      <div class="microposts_pages"><%= will_paginate @microposts %></div>
+    <% end %>
+  </div>
+  <div class="sidebar w_right round"><%= render 'shared/user_info' %></div>
+  <div class="clear">&nbsp;</div>
+</div>

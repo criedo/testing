@@ -38,16 +38,16 @@ def destroy<br />
 &nbsp;&nbsp;end<br />
 end</code></p>
 <p><i>create</i> the file <code>project_path/app/views/comments/index.html.erb</code><br />
-<i>insert</i>: [<i><b>Warning</b>: for "best visualization" the caracters "&lt;&gt;" will be changed with "()" in the HTML tags</i>]<br />
-<code>(span id="comments_count"><%= pluralize(@comments.count, "Comment") %></span>
-(div id="comments")  <%= render :partial => @comments, :locals => { :list => true } %>(/div)<br />
-(hr /)(div id="comment-notice")(/div)<br />
-(h2)Say something!(/h2)<br />
-<%= form_for(Comment.new, :action => "create", :remote => true) do |f| -%><br />
-&nbsp;&nbsp;(div class="data_in")<%= f.label :name, "Your name:" %><%= f.text_field :name %>(/div)<br />
-&nbsp;&nbsp;(div class="data_in")<%= f.label :body, "Comment:" %>    <%= f.text_area :body, :rows => 8 %>(br /)(/div)<br />
-&nbsp;&nbsp;(div class="data_in")<%= submit_tag "Add comment" %>(/div)<br />
-(% end -%></code></p>
+<i>insert</i>:<br />
+<code>&lt;span id="comments_count"&gt;&lt;%= pluralize&lt;@comments.count, "Comment") %&gt;</span>
+&lt;div id="comments"&gt;  &lt;%= render :partial =&gt; @comments, :locals =&gt; { :list => true } %&gt;&lt;/div&gt;<br />
+&lt;hr /&gt;&lt;div id="comment-notice")&lt;/div&gt;<br />
+&lt;h2&gt;Say something!&lt;/h2&gt;<br />
+&lt;%= form_for&lt;Comment.new, :action =&gt; "create", :remote =&gt; true) do |f| -%&gt;<br />
+&nbsp;&nbsp;&lt;div class="data_in"&gt;&lt;%= f.label :name, "Your name:" %&gt;&lt;%= f.text_field :name %&gt;&lt;/div&gt;<br />
+&nbsp;&nbsp;&lt;div class="data_in"&gt;&lt;%= f.label :body, "Comment:" %&gt;    &lt;%= f.text_area :body, :rows =&gt; 8 %&gt;&lt;br /&gt;&lt;/div&gt;<br />
+&nbsp;&nbsp;&lt;div class="data_in"&gt;&lt;%= submit_tag "Add comment" %&gt;&lt;/div&gt;<br />
+&lt;% end -%></code></p>
 <p><i>edit</i> the file <code>project_path/app/controllers/comments_controller.rb</code><br />
 <i>insert</i> at the end of the file:<br />
 <code>label { float:left; width:5em; }<br />

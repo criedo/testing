@@ -11,7 +11,7 @@ rails new miniComments -T<br /> => [<i>-T => don't generate a test directory ass
 rails g resource Comment name:string body:text<br />
 rake db:migrate<br />
 <b>=></b>It isn't necessary insert the three "javascript_include_tag" into the file <code>/app/views/layouts/application.html.erb</code><br /></li>
-<li><b>Insert the code</b><br />
+<li><b>Prepare the code</b><br />
 <p><i>edit</i> the file <code>project_path/app/controllers/comments_controller.rb</code><br />
 <i>insert</i> before the last <code>end</code>:<br />
 <code>def index<br />
@@ -83,4 +83,4 @@ $("#new_comment")[0].reset();<br />
 $('#comment_<%= @comment.id %>').fadeOut();<br />
 /* Replace the count of comments */<br />
 $("#comments_count").html("<%= pluralize(Comment.count, 'Comment') %>");</p></li>
-<li>Finish!</li></ul>
+<li><b>Finish!</b></li></ul>

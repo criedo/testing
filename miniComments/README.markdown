@@ -38,7 +38,7 @@ def destroy<br />
 &nbsp;&nbsp;end<br />
 end</code></p>
 <p><i>create</i> the file <code>project_path/app/views/comments/index.html.erb</code><br />
-<i>insert</i>: [<i><b>Warning</b>: for "best visualization" the caracters "<>" will be changed with "()" in the HTML tags</i>]<br />
+<i>insert</i>: [<i><b>Warning</b>: for "best visualization" the caracters "&lt;&gt;" will be changed with "()" in the HTML tags</i>]<br />
 <code>(span id="comments_count"><%= pluralize(@comments.count, "Comment") %></span>
 (div id="comments")  <%= render :partial => @comments, :locals => { :list => true } %>(/div)<br />
 (hr /)(div id="comment-notice")(/div)<br />

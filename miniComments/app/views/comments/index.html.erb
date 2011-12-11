@@ -1,0 +1,12 @@
+<span id="comments_count"><%= pluralize(@comments.count, "Comment") %></span>
+<div id="comments">
+  <%= render :partial => @comments, :locals => { :list => true } %>
+</div>
+<hr />
+<div id="comment-notice"></div>
+<h2>Say something!</h2>
+<%= form_for(Comment.new, :action => "create", :remote => true) do |f| -%>
+    <div class="data_in"><%= f.label :name, "Your name:" %><%= f.text_field :name %></div>
+    <div class="data_in"><%= f.label :body, "Comment:" %>    <%= f.text_area :body, :rows => 8 %><br /></div>
+    <div class="data_in"><%= submit_tag "Add comment" %></div>
+<% end -%>

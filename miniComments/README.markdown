@@ -1,4 +1,4 @@
-<h2><b>Source</b>: <code>http://blog.bernatfarrero.com/jquery-and-rails-3-mini-tutorial/</code> (with little "CSS" changes) => miniComments</h2>
+<h3><b>Source</b>: <code>http://blog.bernatfarrero.com/jquery-and-rails-3-mini-tutorial/</code> (with little "CSS" changes) => miniComments</h3>
 <b>ruby -v  </b>=> <code>ruby 1.9.3p0 (2011-10-30) [i386-mingw32]</code><br />
 <b>gem -v   </b>=> <code>1.8.11</code><br />
 <b>Rails -v </b>=> <code>Rails 3.1.3</code><br />
@@ -76,11 +76,11 @@ $("#comment_<%= @comment.id %>").effect("highlight", {}, 3000);<br />
 /* Reset the comment form */<br />
 $("#new_comment")[0].reset();<br />
 &nbsp;&nbsp;<b><u>Warning</u></b>: <i>an <b>error</b> occurs</i> if <code>flash.delete(:notice)</code> (like as in the source) isn't change to <code>flash.discard(:notice)</code><br />
-!&nbsp;&nbsp;and the comments won't be rendered (but inserted in the db)</p>
+&nbsp;&nbsp;and the comments won't be rendered (but the data will be inserted in the db)</p>
 <p><i>create</i> the file <code>project_path/app/views/comments/destroy.js.erb</code><br />
 <i>insert</i>:<br />
-/* Eliminate the comment by fading it out */
-$('#comment_<%= @comment.id %>').fadeOut();
-/* Replace the count of comments */
+/* Eliminate the comment by fading it out */<br />
+$('#comment_<%= @comment.id %>').fadeOut();<br />
+/* Replace the count of comments */<br />
 $("#comments_count").html("<%= pluralize(Comment.count, 'Comment') %>");</p></li>
 <li>Finish!</li></ul>

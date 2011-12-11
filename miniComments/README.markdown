@@ -39,11 +39,11 @@ def destroy<br />
 end</code></p>
 <p><i>create</i> the file <code>project_path/app/views/comments/index.html.erb</code><br />
 <i>insert</i>:<br />
-<code>&lt;span id="comments_count"&gt;&lt;%= pluralize&lt;@comments.count, "Comment") %&gt;</span>
+<code>&lt;span id="comments_count"&gt;&lt;%= pluralize(@comments.count, "Comment") %&gt;</span>
 &lt;div id="comments"&gt;  &lt;%= render :partial =&gt; @comments, :locals =&gt; { :list => true } %&gt;&lt;/div&gt;<br />
-&lt;hr /&gt;&lt;div id="comment-notice")&lt;/div&gt;<br />
+&lt;hr /&gt;&lt;div id="comment-notice"&gt;&lt;/div&gt;<br />
 &lt;h2&gt;Say something!&lt;/h2&gt;<br />
-&lt;%= form_for&lt;Comment.new, :action =&gt; "create", :remote =&gt; true) do |f| -%&gt;<br />
+&lt;%= form_for(Comment.new, :action =&gt; "create", :remote =&gt; true) do |f| -%&gt;<br />
 &nbsp;&nbsp;&lt;div class="data_in"&gt;&lt;%= f.label :name, "Your name:" %&gt;&lt;%= f.text_field :name %&gt;&lt;/div&gt;<br />
 &nbsp;&nbsp;&lt;div class="data_in"&gt;&lt;%= f.label :body, "Comment:" %&gt;    &lt;%= f.text_area :body, :rows =&gt; 8 %&gt;&lt;br /&gt;&lt;/div&gt;<br />
 &nbsp;&nbsp;&lt;div class="data_in"&gt;&lt;%= submit_tag "Add comment" %&gt;&lt;/div&gt;<br />
@@ -55,14 +55,14 @@ end</code></p>
 &nbsp;&nbsp;<b><u>Warning</u></b>: if <code>float:left;</code> isn't inserted, <code>label</code> will be considerate an <i>in-line style</i> and <code>width</code> won't be considered!</p>
 <p><i>create</i> the file <code>project_path/app/views/comments/_comment.html.erb</code><br />
 <i>insert</i>:<br />
-<code><%= div_for comment do %><br />
-&nbsp;&nbsp;(span class="dateandoptions")<br />
-&nbsp;&nbsp;&nbsp;&nbsp;Posted <%=time_ago_in_words(comment.created_at)%> ago<br />
-&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Delete', comment_path(comment), :method => :delete, :class => "delete", :remote => true  %><br />
-&nbsp;&nbsp;(/span)<br />
-&nbsp;&nbsp;(span): (b)<%= comment.name %>(/b) wrote:(/span)<br />
-&nbsp;&nbsp;<%= content_tag(:span, comment.body, :class => "comment-body") %><br />
-(% end %></code></p>
+<code>&lt;%= div_for comment do %&gt;<br />
+&nbsp;&nbsp;&lt;span class="dateandoptions"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Posted &lt;%=time_ago_in_words(comment.created_at)%&gt; ago<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;%= link_to 'Delete', comment_path(comment), :method =&gt; :delete, :class =&gt; "delete", :remote =&gt; true  %&gt;<br />
+&nbsp;&nbsp;&lt;/span&gt;<br />
+&nbsp;&nbsp;&lt;span&gt;: &lt;b&gt;&lt;%= comment.name %&gt;&lt;/b&gt; wrote:&lt;/span&gt;<br />
+&nbsp;&nbsp;&lt;%= content_tag(:span, comment.body, :class => "comment-body") %&gt;<br />
+&lt;% end %&gt;</code></p>
 <p><i>create</i> the file <code>project_path/app/views/comments/create.js.erb</code><br />
 <i>insert</i>:<br />
 /* Insert a notice between the last comment and the comment form */<br />
